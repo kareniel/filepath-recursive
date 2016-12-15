@@ -7,6 +7,6 @@ get the path of all files with a given extension
 ```javascript
 const filepaths = require('filepath-recursive')
 
-// dir:str, ext:str -> arr
+// (dir:str, ext:str) -> arr
 const files = filepaths('.', '.js')
 ```
